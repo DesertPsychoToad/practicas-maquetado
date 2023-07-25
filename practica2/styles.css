@@ -1,0 +1,26 @@
+* {
+    font-size: 20
+    ;
+}
+h1{
+    color: red;
+    font-size: 32px;
+}
+
+.myText{
+    color: hotpink;
+}
+.myDiv{
+    color: greenyellow;
+    font-size: 18px;
+}
+
+.customColor{
+    color: gray;
+}
+
+#login-button{
+
+    width: 180px;
+    height: 90px;
+}
