@@ -1,89 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>semántica de HTML5</title>
-    <style>
-        header {
-      background-color: rgb(81, 243, 17);
-      color: black;
-      text-align: left;
-      padding: 25px;
-      }
-    nav {
-      background-color: green;
-      color: white;
-      text-align: left;
-      padding: 20px;
-      border-radius: 10px;
-    }
-    Aside p1 {
-      float: left;
-      background-color: orange;
-      color: white;
-      text-align: left;
-      padding: 200px;
-      border-radius: 10px;
-    }
-    Aside p2 {
-      float: right;
-      background-color: orange;
-      color: white;
-      text-align: right;
-      padding: 200px;
-      border-radius: 10px;
-    }
-    main {
-      float:center ;    
-      display: flex;
-      color: white;
-      background-color: red;
-      justify-content: center;
-      padding: 180px;
-      border-radius: 10px;
-    }
-    footer {
-      float:bottom ;    
-      display: flex;
-      color: white;
-      background-color: purple;
-      justify-content: center;
-      padding: 20px;
-      border-radius: 10px;
-    }
-    
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <section>
-        <header>
-            Header
-            <nav>Nav</nav>
-        </header>
-</section>
-<section>
-    <Aside>
-        <p1>Aside 1</p1>
-    </Aside>
-</section>
-<section>
-    <Section>
-        <Aside>
-            <p2>Aside 2</p2>
-        </Aside>
-    </Section>
-    <main>
-        <p>Main</p>
+    <header class="header_box">
+       Header
+       <nav>Nav</nav>
+    </header>
+    <div ></div>
+    <aside class="aside1">Aside 1</aside>
+     <main>
+        Main
         <article>Article</article>
         <article>Article</article>
         <article>Article</article>
-    </main>
-</section>
-<section>
-    <footer>
-        <p>footer</p>
-    </footer>
-</section>
+     </main>
+     <aside  class="aside2">Aside 2</aside>
+     <footer>Footer</footer>
 </body>
 </html>
